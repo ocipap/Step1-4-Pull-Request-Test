@@ -61,6 +61,12 @@ git clone -b 'branchName'
 ~~~
 git add file.name
 ~~~
+### add 취소하기
+- 해당 파일만, add전체를 취소 가능하다
+~~~
+git reset HEAD
+git reset HEAD 'fileName'
+~~~
 
 ## status
 - 프로젝트 폴더의 상태를 확인합니다.
@@ -145,6 +151,7 @@ git pull
 
 ## fetch
 - 원격저장소에서 로컬저장소로 가져오기
+- stage, Wd에는 영향 없음
 ~~~
 git fetch
 ~~~
